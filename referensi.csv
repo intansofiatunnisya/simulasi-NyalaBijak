@@ -1,0 +1,7 @@
+No,Nama Sumber,Yang dipakai,URL,Catatan
+1,U.S. Department of Energy - Energy Saver,Rumus estimasi penggunaan energi; acuan bahwa watt bisa dihitung dari ampere × volt dan cek label/manual.,https://www.energy.gov/energysaver/estimating-appliance-and-home-electronic-energy-use,Sumber resmi pemerintah AS.
+2,Silicon Valley Power - Appliance Energy Use Chart,Kisaran konsumsi energi berbagai alat rumah tangga untuk simulasi.,https://www.siliconvalleypower.com/residents/save-energy/appliance-energy-use-chart,Utilitas listrik publik; cocok sebagai acuan kisaran.
+3,Panasonic Indonesia - Standard LN Series AC,"Contoh validasi AC Indonesia: PK, BTU/h, dan watt input.",https://www.panasonic.com/id/air-solutions/products/air-conditioner/single-split-wall-mount-air-conditioner/standard-ln-series-wkj.html,Dipakai untuk acuan kelas AC PK/BTU.
+4,PLN - Tarif Adjustment,Acuan halaman tarif listrik PLN/tautan periode tarif.,https://web.pln.co.id/pelanggan/tarif-tenaga-listrik/tariff-adjustment,Tarif dapat berubah; cek periode terbaru.
+5,PLN - Q&A Tarif Listrik,Keterangan golongan daya pelanggan rumah tangga.,https://web.pln.co.id/pelanggan/qa-tarif-listrik,Acuan daya R-1/R-2/R-3.
+6,Briggs & Stratton Energy,Penjelasan lonjakan awal motor/kompresor/generator.,https://energy.briggsandstratton.com/en-us/resources/article-categories/resource-articles/motor-starting-101-how-generators-power-up-your-home-appliances,Dipakai untuk faktor start simulasi.

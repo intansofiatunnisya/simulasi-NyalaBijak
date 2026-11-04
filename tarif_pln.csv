@@ -1,0 +1,8 @@
+Golongan,Daya,Tarif Rp/kWh,Catatan,Sumber URL
+R-1 Subsidi,450 VA,415.0,Rumah tangga subsidi; cek status pelanggan.,https://web.pln.co.id/pelanggan/tarif-tenaga-listrik/tariff-adjustment
+R-1 Subsidi,900 VA,605.0,Rumah tangga subsidi; cek status pelanggan.,https://web.pln.co.id/pelanggan/tarif-tenaga-listrik/tariff-adjustment
+R-1 Non-subsidi/RTM,900 VA,1352.0,Rumah tangga mampu/non-subsidi.,https://web.pln.co.id/pelanggan/tarif-tenaga-listrik/tariff-adjustment
+R-1 Non-subsidi,1.300 VA,1444.7,Umum rumah tangga kecil.,https://web.pln.co.id/pelanggan/tarif-tenaga-listrik/tariff-adjustment
+R-1 Non-subsidi,2.200 VA,1444.7,Umum rumah tangga kecil.,https://web.pln.co.id/pelanggan/tarif-tenaga-listrik/tariff-adjustment
+R-2 Non-subsidi,3.500–5.500 VA,1699.53,Rumah tangga menengah.,https://web.pln.co.id/pelanggan/tarif-tenaga-listrik/tariff-adjustment
+R-3 Non-subsidi,> 6.600 VA,1699.53,Rumah tangga besar.,https://web.pln.co.id/pelanggan/tarif-tenaga-listrik/tariff-adjustment
