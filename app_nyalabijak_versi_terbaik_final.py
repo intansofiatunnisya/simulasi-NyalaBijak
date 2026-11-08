@@ -574,35 +574,30 @@ with st.expander("Cara kerja dan formulasi simulasi", expanded=False):
         unsafe_allow_html=True
     )
 
-st.markdown("#### 5. Dasar acuan perhitungan")
-st.markdown(
-    """
-    <div class="soft-box">
-        Dasar perhitungan dalam simulasi ini menggunakan konsep daya dan konsumsi energi listrik.
-        Total daya dihitung berdasarkan daya dan jumlah peralatan, sedangkan konsumsi energi listrik
-        diperoleh dari perkalian daya, jumlah peralatan, lama penggunaan harian, dan jumlah hari
-        pemakaian, kemudian dikonversi dari Wh menjadi kWh. Perhitungan Intensitas Konsumsi Energi
-        (IKE) dilakukan dengan membandingkan konsumsi energi listrik bulanan terhadap luas rumah,
-        sedangkan estimasi biaya dihitung berdasarkan konsumsi energi dan tarif listrik sesuai
-        golongan pelanggan.
-        <br><br>
-        Konsep IKE sejalan dengan Permen ESDM Nomor 3 Tahun 2025 tentang Konservasi Energi oleh
-        Pemerintah dan Pemerintah Daerah. Prinsip efisiensi energi bangunan didukung oleh
-        Permen PUPR Nomor 21 Tahun 2021 tentang Penilaian Kinerja Bangunan Gedung Hijau,
-        sedangkan pengelolaan energi sejalan dengan Permen ESDM Nomor 8 Tahun 2025 tentang
-        Manajemen Energi. Adapun penggolongan tarif listrik mengacu pada Permen ESDM Nomor 7
-        Tahun 2024 tentang Tarif Tenaga Listrik yang Disediakan oleh PT PLN (Persero).
-        <br><br>
-        Dalam penelitian ini, IKE digunakan sebagai pendekatan simulasi edukatif pada lingkup
-        rumah tangga. Kategori hemat atau tidak hemat ditentukan berdasarkan kriteria yang
-        digunakan dalam penelitian sesuai masukan validator materi, bukan berdasarkan klasifikasi
-        resmi dalam Permen ESDM Nomor 3 Tahun 2025. Hasil simulasi bertujuan membantu pengguna
-        memahami konsumsi energi dan estimasi biaya listrik, bukan sebagai hasil audit energi
-        profesional maupun tagihan resmi PLN.
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+    st.markdown("#### 5. Dasar acuan perhitungan")
+    st.markdown(
+        """
+        <div class="soft-box">
+            Dasar acuan perhitungan dalam simulasi ini menggunakan konsep energi listrik, yaitu konsumsi energi
+            diperoleh dari perkalian daya alat listrik, jumlah alat, lama penggunaan, dan jumlah hari pemakaian,
+            kemudian dikonversi dari satuan Wh ke kWh. Perhitungan Intensitas Konsumsi Energi (IKE) mengacu pada
+            konsep penggunaan energi terhadap luas area bangunan, sehingga IKE digunakan sebagai indikator untuk
+            membandingkan total konsumsi energi listrik bulanan dengan luas rumah.
+            <br><br>
+            Konsep IKE tersebut sejalan dengan Permen ESDM Nomor 3 Tahun 2025 tentang Konservasi Energi oleh
+            Pemerintah dan Pemerintah Daerah, yang menjelaskan IKE sebagai indikator kinerja energi berdasarkan
+            penggunaan energi per luas area bangunan. Konteks efisiensi energi bangunan juga didukung oleh
+            Permen PUPR Nomor 21 Tahun 2021 tentang Penilaian Kinerja Bangunan Gedung Hijau, serta prinsip
+            manajemen energi pada Permen ESDM Nomor 8 Tahun 2025.
+            <br><br>
+            Dalam penelitian ini, perhitungan IKE digunakan sebagai pendekatan simulasi edukatif pada lingkup
+            rumah tangga. Oleh karena itu, kategori hemat atau tidak hemat pada simulasi mengikuti arahan
+            validator materi dan digunakan untuk membantu pengguna memahami tingkat konsumsi listrik rumah tangga,
+            bukan sebagai hasil audit energi profesional.
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
 # =========================================================
 # DATA RUMAH
